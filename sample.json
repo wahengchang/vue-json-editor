@@ -1,0 +1,27 @@
+{
+  "UNKNOWN": {
+    "code": "UNKNOWN",
+    "message": "unknow error",
+    "httpCode": 400
+  },
+  "INVALID_PARAMETER": {
+    "code": "INVALID_PARAMETER",
+    "message": "invalid parameter",
+    "httpCode": 400
+  },
+  "INVALID_START_END_TIME": {
+    "code": "INVALID_START_END_TIME",
+    "message": "endTime must later the startTime",
+    "httpCode": 400
+  },
+  "END_TIME_EARLY_THEN_NOW": {
+    "code": "END_TIME_EARLY_THEN_NOW",
+    "message": "endTime must later the now",
+    "httpCode": 400
+  },
+  "INVALID_PASSWORD": {
+    "code": "INVALID_PASSWORD",
+    "message": "invalid password",
+    "httpCode": 401
+  }
+}

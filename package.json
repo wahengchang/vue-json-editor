@@ -7,10 +7,11 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "publish:gh-pages": "npx gh-pages --dist=dist"
+    "publish:gh-pages": "gh-pages --dist=dist"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "gh-pages": "^2.0.1",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10"
   },

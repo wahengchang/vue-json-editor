@@ -1,3 +1,5 @@
+const pkg = require("./package.json");
 module.exports = {
-  lintOnSave: false
+  lintOnSave: false,
+  publicPath: pkg.name
 };

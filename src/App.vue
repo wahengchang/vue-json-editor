@@ -49,12 +49,12 @@ export default {
       };
       reader.readAsText(event.target.files[0]);
     },
-    onChangeMessage: function(code, message) {
-      this.uploadedJson[code].message = message;
+    onChangeMessage: function(mainKey, secondKey, message) {
+      this.uploadedJson[mainKey][secondKey].message = message;
     },
     onDownloadHandler: function() {
       const filename = `json-${new Date().getTime()}.json`;
-      const text = JSON.stringify(this.uploadedJson, null, 2);
+      const text = JSON.stringify(this.uploadedJson, null, 4);
       const element = document.createElement("a");
       element.setAttribute(
         "href",

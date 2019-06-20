@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-json-editor/precache-manifest.b2dc357086cd45947ee938628e996b17.js"
+  "/vue-json-editor/precache-manifest.42f79b0d82c91885904ea47cf7460f73.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-json-editor"});
